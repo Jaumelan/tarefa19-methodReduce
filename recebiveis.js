@@ -114,8 +114,6 @@ function tabelaPorData() {
     })
 }
 
-
-
 //função para formatar a data
 function formatarData(data) {
     return data.toLocaleDateString('pt-BR', {timeZone: 'UTC'});
